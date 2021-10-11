@@ -1,4 +1,4 @@
-FROM apache/airflow:2.1.4-python3.9
+FROM apache/airflow:2.2.0
 
 # Install any linux packages here (Optional)
 
