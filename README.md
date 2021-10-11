@@ -1,6 +1,6 @@
 # docker-compose-airflow
 
-_Note: Updated to Airflow version 2.1.4_
+_Note: Updated to Airflow version 2.2.0_
 
 Docker Compose Apache Airflow (Official Docker Images) with CeleryExecutor, InitDB and InitUser
 
