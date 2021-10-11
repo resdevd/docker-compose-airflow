@@ -29,17 +29,4 @@ Ideal for local development or small scale personal deployments.
 
 **Step 6:** Run few dags and monitor Celery workers at http://localhost:5555
 
-# Rebuild image and redeploy with postgres intact
 
-docker build . -t resdev-airflow:latest  
-
-update image
------------
-cd ..
-docker-compose up -d --no-deps resdev-airflow
-
-docker network prune 
-
-docker volume prune 
-  
-docker system prune  -f
