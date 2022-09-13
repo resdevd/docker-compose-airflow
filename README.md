@@ -30,3 +30,8 @@ Ideal for local development or small scale personal deployments.
 **Step 6:** Run few dags and monitor Celery workers at http://localhost:5555
 
 
+
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
